@@ -1,0 +1,60 @@
+import java.util.*;
+class Operator
+{
+public static void main(String[] args)
+{
+Scanner in=new Scanner(System.in);
+System.out.println("\t\tCALCULATOR\t\t");
+System.out.println("\t\t===========\t\t");
+System.out.println("\t\t+ : ADD\t\t");
+System.out.println("\t\t- : SUB\t\t");
+System.out.println("\t\t* : MULT\t\t");
+System.out.println("\t\t/ : DIV\t\t");
+System.out.print("\n\t\tEnter your choice= ");
+char choice=in.next().charAt(0);
+
+switch(choice)
+{
+
+case '+':
+int no1,no2,c;
+System.out.print("\n\t\tenter two numbers= ");
+no1=in.nextInt();
+no2=in.nextInt();
+c=no1+no2;
+System.out.print("\n\t\tResult= "+c);
+break;
+
+case '-':
+int no3,no4,d;
+System.out.print("\n\t\tenter two numbers= ");
+no3=in.nextInt();
+no4=in.nextInt();
+d=no3-no4;
+System.out.print("\n\t\tResult= "+d);
+break;
+
+case '*':
+int no5,no6,e;
+System.out.print("\n\t\tenter two numbers= ");
+no5=in.nextInt();
+no6=in.nextInt();
+e=no5*no6;
+System.out.print("\n\t\tResult= "+e);
+break;
+
+case '/':
+double no7,no8,f;
+System.out.print("\n\t\tenter two numbers= ");
+no7=in.nextDouble();
+no8=in.nextDouble();
+f=no7*no8;
+System.out.print("\n\t\tResult= "+f);
+break;
+}
+
+}
+}
+
+
+
