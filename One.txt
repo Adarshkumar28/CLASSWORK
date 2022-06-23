@@ -1,0 +1,53 @@
+import java.util.*;
+class One
+{
+public static void main(String[] args)
+{
+Scanner in=new Scanner(System.in);
+System.out.println("\t\tCALCULATOR\t\t");
+System.out.println("\t\t===========\t\t");
+System.out.println("\t\t1.ADD\t\t");
+System.out.println("\t\t2.SUB\t\t");
+System.out.println("\t\t3.MULT\t\t");
+System.out.println("\t\t4.DIV\t\t");
+System.out.print("\n\t\tEnter your choice\t");
+int choice=in.nextInt();
+
+if(choice==1)
+{
+int a,b,c;
+System.out.print("\n\t\tenter the values:\t");
+a=in.nextInt();
+b=in.nextInt();
+c=a+b;
+System.out.print("\n\t\tResult:"+c);
+}
+else if(choice==2)
+{
+int a,b,d;
+System.out.print("\n\t\tenter the values:\t");
+a=in.nextInt();
+b=in.nextInt();
+d=a-b;
+System.out.print("\n\t\tResult:"+d);
+}
+else if(choice==3)
+{
+int a,b,e;
+System.out.print("\n\t\tenter the values:\t");
+a=in.nextInt();
+b=in.nextInt();
+e=a*b;
+System.out.print("\n\t\tResult:"+e);
+}
+else if(choice==4)
+{
+int a,b,f;
+System.out.print("\n\t\tenter the values:\t");
+a=in.nextInt();
+b=in.nextInt();
+f=a/b;
+System.out.print("\n\t\tResult:"+f);
+}
+
+}}
