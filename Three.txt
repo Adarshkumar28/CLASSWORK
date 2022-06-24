@@ -1,0 +1,55 @@
+import java.util.*;
+class Three
+{
+public static void main(String[] args)
+{
+Scanner in=new Scanner(System.in);
+
+System.out.println("AMOUNT=");
+double amount=in.nextDouble();
+System.out.println("RATE=");
+double rate=in.nextDouble();
+
+int year=1;
+
+while(year<=3)
+{
+if(year==1)
+{
+System.out.println("YEAR 1");
+System.out.println("=====");
+System.out.println("AMOUNT = " +amount);
+System.out.println("RATE = " +rate);
+double si=((amount*rate*1)/100);
+System.out.println("INTEREST AMOUNT = " +si);
+double t = amount + si;
+System.out.println("TOTAL PAYABLE AMOUNT = "+t);
+}
+
+else if(year==2)
+{
+System.out.println("YEAR 2");
+System.out.println("=====");
+System.out.println("AMOUNT = " +amount);
+System.out.println("RATE = " +rate);
+double si=((amount*rate*2)/100);
+System.out.println("INTEREST AMOUNT = " +si);
+double t = amount + si;
+System.out.println("TOTAL PAYABLE AMOUNT = "+t);
+}
+
+else if(year==3)
+{
+System.out.println("YEAR 3");
+System.out.println("=====");
+System.out.println("AMOUNT = " +amount);
+System.out.println("RATE = " +rate);
+double si=((amount*rate*3)/100);
+System.out.println("INTEREST AMOUNT = " +si);
+double t = amount + si;
+System.out.println("TOTAL PAYABLE AMOUNT = "+t);
+}
+year++;
+}
+
+}}
