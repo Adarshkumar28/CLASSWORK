@@ -1,0 +1,29 @@
+class Two
+{
+public static void main(String[] args)
+{
+int i=201,sum1=0,sum2=0,c=0,d=0;
+
+while(i<=400)
+{
+if(i%2==0)
+{ 
+sum1=sum1+i;
+c++;
+}
+else if(i%2==1)
+{
+sum2=sum2+i;
+d++;
+}
+i++;
+}
+
+System.out.println("Total even number="+sum1);
+System.out.println("Total odd number="+sum2);
+int difference= sum1-sum2;
+System.out.println("Difference="+difference);
+System.out.println("Count of even  no="+c);
+System.out.println("Count of even  no="+d);
+}
+}
