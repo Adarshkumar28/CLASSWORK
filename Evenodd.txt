@@ -1,0 +1,26 @@
+import java.util.*;
+class Evenodd
+{
+public static void main(String[] args)
+{
+int i=34567834,rem,sum1=0,sum2=0;
+
+while(i!=0)
+{
+rem=i%10;
+if(rem%2==0)
+{
+sum1=(sum1+rem);
+}
+else
+{
+sum2=(sum2+rem);
+}
+i=i/10;
+
+}
+
+System.out.println("sum of even="+sum1);
+System.out.println("sum of odd="+sum2);
+}
+}
