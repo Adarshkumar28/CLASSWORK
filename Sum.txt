@@ -1,0 +1,18 @@
+import java.util.*;
+class Sum
+{
+public static void main(String[] args)
+{
+int i=34567834,rem,sum=0;
+
+while(i!=0)
+{
+rem=i%10;
+System.out.println(rem+" ");
+sum=(sum+rem);
+i=i/10;
+}
+System.out.println("Sum="+sum);
+}}
+
+
