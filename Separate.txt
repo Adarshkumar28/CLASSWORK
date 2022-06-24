@@ -1,0 +1,19 @@
+import java.util.*;
+class Separate
+{
+public static void main(String[] args)
+{
+Scanner in=new Scanner(System.in);
+System.out.println("enter the number");
+int i =in.nextInt();
+int rem;
+
+while(i!=0)
+{
+rem=i%10;
+System.out.println(rem+" ");
+i=i/10;
+}
+}}
+
+
