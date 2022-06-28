@@ -5,19 +5,20 @@ public static void main(String[] args)
 int num=153,s=0,rem;
 int i=num;
 
-while(i!=0)
+do
 {
 rem=i%10;
-s=(s+(rem*rem*rem*rem));
+s=(s+(rem*rem*rem));
 i=i/10;
-}
+}while(i!=0);
+
 if(s==num)
 {
-System.out.println("Armstrong no is"+s);
+System.out.println("The armstrong no is"+s);
 }
 else
 {
-System.out.println("not armstrong no");
+System.out.println("This is not armstrong no");
 }
 
 }}

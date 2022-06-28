@@ -1,0 +1,19 @@
+class Maximum
+{
+public static void main(String[] args)
+{
+int a=112451,rem;
+int k=0;
+
+do
+{
+rem=a%10;
+if(rem>k)
+
+k=rem;
+a=a/10;
+
+}while(a!=0);
+
+System.out.println(k);
+}}

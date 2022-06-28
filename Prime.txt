@@ -2,23 +2,24 @@ class Prime
 {
 public static void main(String[] args)
 {
-int num=7,i=2;
+int num=11,i=2;
 
-while(i<=num)
+do
 {
 if(num%i==0)
 break;
 
 i++;
 }
+while(i!=0);
 
 if(num==i)
 {
-System.out.println("prime no");
+System.out.println("This is prime no");
 }
 else
 {
-System.out.ptintln("not a prime no");
+System.out.println("not a prime no");
 }
 
 }}

@@ -3,24 +3,26 @@ class Evenodd
 {
 public static void main(String[] args)
 {
-int i=34567834,rem,sum1=0,sum2=0;
+Scanner in=new Scanner(System.in);
+System.out.println("enter no1");
+int num=in.nextInt();
+int i=1,s1=0,s2=0,s3;
 
-while(i!=0)
+do
 {
-rem=i%10;
-if(rem%2==0)
+if(i%2==0)
 {
-sum1=(sum1+rem);
+s1=s1+i;
 }
 else
 {
-sum2=(sum2+rem);
+s2=s2+i;
 }
-i=i/10;
+i++;
+}
+while(i<=num);
+System.out.println("sum="+s1);
+System.out.println("sum="+s2);
 
-}
 
-System.out.println("sum of even="+sum1);
-System.out.println("sum of odd="+sum2);
-}
-}
+}}

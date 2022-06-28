@@ -1,27 +1,25 @@
-import java.util.*;
 class Palindrome
 {
 public static void main(String[] args)
 {
-Scanner in=new Scanner(System.in);
-int num=in.nextInt();
-int rem,rev=0;
+int num=121,rem,rev=0;
+int i=num;
 
-while(num!=0)
+do
 {
-rem=num%10;
+rem=i%10;
 rev=rev*10+rem;
+i=i/10;
+}
+while(i!=0);
 
-
-if(num==rev)
+if(rev==num)
 {
-System.out.println("This is palindrome no");
+System.out.println("this is palindrome no");
 }
 else
 {
-System.out.println("This is not palindrome no");
-}
-num=num/10;
+System.out.println("this is not palindrome no");
 }
 
 }}
