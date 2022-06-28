@@ -1,0 +1,23 @@
+class Armstrong
+{
+public static void main(String[] args)
+{
+int num=1234,s=0,rem;
+int i=num;
+
+while(i!=0)
+{
+rem=i%10;
+s=(s+(rem*rem*rem*rem));
+i=i/10;
+}
+if(s>0)
+{
+System.out.println("Armstrong no is"+s);
+}
+else
+{
+System.out.println("not armstrong no");
+}
+
+}}
