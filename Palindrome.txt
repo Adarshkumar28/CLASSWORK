@@ -2,24 +2,21 @@ class Palindrome
 {
 public static void main(String[] args)
 {
-int num=121,rem,rev=0;
-int i=num;
 
-do
+int rem,rev=0,num=121;
+int i=num;
+for(i=num;i!=0;i=i/10)
 {
 rem=i%10;
 rev=rev*10+rem;
-i=i/10;
 }
-while(i!=0);
-
 if(rev==num)
 {
-System.out.println("this is palindrome no");
+System.out.println("this  is palindrome");
 }
 else
 {
-System.out.println("this is not palindrome no");
+System.out.println("not palindrome");
 }
 
 }}

@@ -2,18 +2,18 @@ class Frequency
 {
 public static void main(String[] args)
 {
-int i=12345432,c=0,sn=2,rem;
+int num,rem,sn=3,c=0;
 
-do
+for(num=123653; num!=0; num=num/10)
 {
-rem=i%10;
+rem=num%10;
 if(rem==sn)
-
+{
 c++;
-i=i/10;
-}while(i!=0);
+}
 
-if(c>0)
-System.out.println("number repeated times="+c);
+}
 
-}}
+System.out.println("the no repeated "+c+" times");
+}
+}

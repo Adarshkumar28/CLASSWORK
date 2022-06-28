@@ -2,18 +2,38 @@ class Maximum
 {
 public static void main(String[] args)
 {
-int a=112451,rem;
-int k=0;
+int num,k=0,rem;
 
-do
+for(num=1237421;num!=0;num=num/10)
 {
-rem=a%10;
+rem=num%10;
 if(rem>k)
-
+{
 k=rem;
-a=a/10;
+}
+}
+System.out.println("The maximum no is="+k);
+}
+}
 
-}while(a!=0);
 
-System.out.println(k);
-}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -2,23 +2,20 @@ class Armstrong
 {
 public static void main(String[] args)
 {
-int num=153,s=0,rem;
-int i=num;
+int num=158,s=0,rem,i;
 
-do
+for(i=num; i!=0; i=i/10)
 {
 rem=i%10;
 s=(s+(rem*rem*rem));
-i=i/10;
-}while(i!=0);
-
+}
 if(s==num)
 {
-System.out.println("The armstrong no is"+s);
+System.out.println("this no is armstrong no");
 }
 else
 {
-System.out.println("This is not armstrong no");
+System.out.println("this no is not armstrong no");
 }
 
 }}
