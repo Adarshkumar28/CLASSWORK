@@ -1,0 +1,19 @@
+import java.util.*;
+class Printeven
+{
+public static void main(String[] args)
+{
+Scanner in=new Scanner(System.in);
+int num=in.nextInt();
+int rem;
+
+while(num!=0)
+{
+rem=num%10;
+if(rem%2==0)
+{
+System.out.print(rem+" ");
+}
+num=num/10;
+}
+}}

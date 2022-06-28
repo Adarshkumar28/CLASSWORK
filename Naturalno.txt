@@ -1,0 +1,18 @@
+import java.util.*;
+class Naturalno
+{
+public static void main(String[] args)
+{
+int i=1;
+Scanner in=new Scanner(System.in);
+System.out.print("enter the number=");
+int num=in.nextInt();
+
+do
+{
+System.out.print(i+" ");
+i++;
+}while(i<=num);
+
+}
+}

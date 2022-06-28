@@ -1,0 +1,27 @@
+import java.util.*;
+class Simpleinterest
+{
+public static void main(String[] args)
+{
+Scanner in=new Scanner(System.in);
+System.out.println("AMOUNT=");
+double amount=in.nextDouble();
+System.out.println("RATE=");
+double rate=in.nextDouble();
+int year=1;
+
+do
+{
+System.out.println("YEAR");
+
+System.out.println("=====");
+
+System.out.println("AMOUNT="+amount);
+System.out.println("RATE="+rate);
+double si=((amount*rate*year)/100);
+System.out.println("THE SI="+si);
+year++;
+}while(year<=10);
+
+
+}}

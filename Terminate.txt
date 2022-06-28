@@ -1,0 +1,16 @@
+import java.util.*;
+class Terminate
+{
+public static void main(String[] args)
+{
+Scanner in=new Scanner(System.in);
+int i=1,s=0;
+do
+{
+ i=in.nextInt();
+s=s+i;
+}
+while(i!=0);
+System.out.println("The sum="+s);
+}
+}

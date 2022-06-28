@@ -1,0 +1,20 @@
+import java.util.*;
+class Sumnatural
+{
+public static void main(String[] args)
+{
+int i=1,s=0;
+Scanner in=new Scanner(System.in);
+System.out.print("enter the number=");
+int num=in.nextInt();
+
+do
+{
+System.out.print(i+" ");
+s=s+i;
+i++;
+}while(i<=num);
+System.out.println("sum="+s);
+}
+
+}

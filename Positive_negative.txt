@@ -1,0 +1,19 @@
+class Positive_negative
+{
+public static void main(String[] args)
+{
+int a=10,i=1;
+
+while(i!=0)
+{
+if(a>0)
+{
+System.out.println("positive");
+}
+else if(a<0)
+{
+
+System.out.println("negative");
+}
+
+}}
